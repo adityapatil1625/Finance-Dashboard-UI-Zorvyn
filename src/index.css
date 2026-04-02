@@ -1,0 +1,97 @@
+:root {
+  color: #1f2a22;
+  font-family: "Aptos", "Trebuchet MS", "Segoe UI", sans-serif;
+  font-synthesis: none;
+  font-weight: 400;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  --page-start: #f8f2e8;
+  --page-end: #f2ede2;
+  --page-glow-a: rgba(240, 180, 41, 0.16);
+  --page-glow-b: rgba(62, 142, 208, 0.14);
+  --bg-base: #f6f1e8;
+  --bg-elevated: rgba(255, 252, 247, 0.82);
+  --bg-panel: rgba(255, 252, 247, 0.92);
+  --border-soft: rgba(100, 114, 94, 0.16);
+  --border-strong: rgba(69, 84, 64, 0.22);
+  --surface-soft: rgba(31, 42, 34, 0.04);
+  --surface-frost: rgba(255, 255, 255, 0.74);
+  --surface-card: rgba(255, 255, 255, 0.6);
+  --field-bg: rgba(255, 255, 255, 0.82);
+  --overlay-bg: rgba(18, 22, 19, 0.54);
+  --text-primary: #1f2a22;
+  --text-secondary: #576256;
+  --text-muted: #6f7a6c;
+  --emerald: #0f9d7a;
+  --emerald-deep: #0b6f58;
+  --coral: #ff7a59;
+  --coral-deep: #d95e40;
+  --sand: #f0b429;
+  --sky: #3e8ed0;
+  --shadow-soft: 0 24px 64px rgba(56, 56, 28, 0.11);
+  --shadow-card: 0 14px 38px rgba(72, 61, 41, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--page-start);
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, var(--page-glow-a), transparent 28%),
+    radial-gradient(circle at top right, var(--page-glow-b), transparent 24%),
+    linear-gradient(180deg, var(--page-start) 0%, var(--page-end) 100%);
+  margin: 0;
+  min-height: 100vh;
+  min-width: 320px;
+  color: var(--text-primary);
+  transition:
+    background 220ms ease,
+    color 220ms ease;
+}
+
+body[data-theme="dark"] {
+  --page-start: #081218;
+  --page-end: #0d1a23;
+  --page-glow-a: rgba(15, 157, 122, 0.14);
+  --page-glow-b: rgba(62, 142, 208, 0.12);
+  --bg-base: #101920;
+  --bg-elevated: rgba(17, 24, 31, 0.84);
+  --bg-panel: rgba(14, 22, 29, 0.92);
+  --border-soft: rgba(132, 153, 160, 0.16);
+  --border-strong: rgba(173, 196, 203, 0.18);
+  --surface-soft: rgba(255, 255, 255, 0.05);
+  --surface-frost: rgba(23, 34, 42, 0.78);
+  --surface-card: rgba(18, 28, 35, 0.82);
+  --field-bg: rgba(18, 28, 35, 0.95);
+  --overlay-bg: rgba(4, 8, 12, 0.72);
+  --text-primary: #eef7f3;
+  --text-secondary: #b0c2bd;
+  --text-muted: #7f9590;
+  --shadow-soft: 0 24px 64px rgba(0, 0, 0, 0.34);
+  --shadow-card: 0 14px 38px rgba(0, 0, 0, 0.28);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+}
