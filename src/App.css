@@ -52,8 +52,9 @@
 .panel h2,
 .panel h3,
 .modal-card h2 {
-  font-family: "Gill Sans", "Aptos Display", "Trebuchet MS", sans-serif;
-  letter-spacing: -0.03em;
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.02em;
   margin: 0;
 }
 
@@ -130,6 +131,7 @@
 .button {
   border: 0;
   border-radius: 999px;
+  font-family: var(--font-body);
   font-weight: 700;
   padding: 13px 18px;
   transition:
@@ -211,6 +213,7 @@
 }
 
 .metric-card__value {
+  font-variant-numeric: lining-nums tabular-nums;
   font-size: clamp(1.8rem, 3vw, 2.6rem);
   margin: 12px 0 8px;
   position: relative;
@@ -361,6 +364,7 @@
   border: 1px solid var(--border-strong);
   border-radius: 16px;
   color: var(--text-primary);
+  font-family: var(--font-body);
   min-height: 50px;
   padding: 0 14px;
 }
@@ -443,6 +447,7 @@
 }
 
 .amount {
+  font-variant-numeric: lining-nums tabular-nums;
   font-weight: 700;
 }
 
@@ -470,6 +475,7 @@
 
 .insight-card h3,
 .stack-card h3 {
+  font-variant-numeric: lining-nums tabular-nums;
   font-size: 1.5rem;
   margin: 10px 0;
 }
@@ -595,6 +601,7 @@
 }
 
 .group-summary__amount {
+  font-variant-numeric: lining-nums tabular-nums;
   font-size: 1.25rem;
   margin: 10px 0 6px;
 }

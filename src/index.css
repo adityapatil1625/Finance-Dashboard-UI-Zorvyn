@@ -1,10 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;500;600;700;800&display=swap");
+
 :root {
   color: #1f2a22;
-  font-family: "Aptos", "Trebuchet MS", "Segoe UI", sans-serif;
+  font-family: var(--font-body);
   font-synthesis: none;
   font-weight: 400;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
+  --font-body: "Manrope", "Segoe UI", sans-serif;
+  --font-display: "Cormorant Garamond", "Times New Roman", serif;
   --page-start: #f8f2e8;
   --page-end: #f2ede2;
   --page-glow-a: rgba(240, 180, 41, 0.16);
