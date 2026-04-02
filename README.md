@@ -12,7 +12,7 @@ A fresh frontend-only finance dashboard built for the assignment brief using Rea
 
 ![Finance Dashboard Desktop](docs/dashboard-desktop.png)
 
-## Assignment Fit
+## Description
 
 This project covers the required areas from the brief:
 
@@ -132,8 +132,3 @@ src/
   utils/
 ```
 
-## Notes for Reviewers
-
-- The app is optimized for assignment evaluation rather than backend completeness
-- Filters affect the entire dashboard so the reviewer can see state flow clearly
-- Admin-only controls make the role-based behavior easy to demonstrate during review
