@@ -12,10 +12,6 @@ A fresh frontend-only finance dashboard built for the assignment brief using Rea
 
 ![Finance Dashboard Desktop](docs/dashboard-desktop.png)
 
-### Mobile
-
-![Finance Dashboard Mobile](docs/dashboard-mobile.png)
-
 ## Assignment Fit
 
 This project covers the required areas from the brief:
