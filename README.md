@@ -2,6 +2,20 @@
 
 A fresh frontend-only finance dashboard built for the assignment brief using React, TypeScript, Vite, and Recharts. The app focuses on clarity, role-based interaction, and readable finance storytelling without any backend dependency.
 
+## Live Demo
+
+- Vercel deployment: [finance-dashboard-ui-zorvyn-theta.vercel.app](https://finance-dashboard-ui-zorvyn-theta.vercel.app)
+
+## Screenshots
+
+### Desktop
+
+![Finance Dashboard Desktop](docs/dashboard-desktop.png)
+
+### Mobile
+
+![Finance Dashboard Mobile](docs/dashboard-mobile.png)
+
 ## Assignment Fit
 
 This project covers the required areas from the brief:
@@ -96,6 +110,13 @@ The Vite development server will start on the default local port shown in the te
 - `npm run build` creates a production build
 - `npm run preview` previews the build locally
 - `npm run lint` runs ESLint
+
+## Verification
+
+The project was verified locally with:
+
+- `npm run lint`
+- `npm run build`
 
 ## Assumptions
 
